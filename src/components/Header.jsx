@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import './Header.css'; 
-import 'bootstrap/dist/css/bootstrap.min.css'; // Asegúrate de importar los estilos de Bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const Header = () => {
