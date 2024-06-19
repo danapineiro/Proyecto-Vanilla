@@ -11,9 +11,10 @@ const Header = () => {
       <Navbar expand="lg" className="navbar-custom">
         <Navbar.Brand href="#home">
           <img
-            src="logo-mundo-migrante (1).png"
-            className="d-inline-block align-top"
+            src={process.env.PUBLIC_URL +'/img/logo-mundo-migrante (1).png'}
             alt="Mundo Migrante Chile"
+            className="d-inline-block align-top"
+            
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

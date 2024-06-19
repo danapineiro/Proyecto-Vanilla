@@ -9,7 +9,9 @@ function Home() {
       <Row>
         <Col>
           <div className="image-container">
-            <img src="/img 1.png" alt="" className="home-image" />
+          <img  src={process.env.PUBLIC_URL +'/img/img 1.png'}
+            alt="" 
+            className="home-image" />
             <div className="overlay-content">
               <p>Te ayudamos con tus trámites y además te acompañamos en el proceso.</p>
               <h1>Mundo Migrante Chile</h1>
@@ -23,21 +25,27 @@ function Home() {
         <Row className="justify-content-center">
           <Col md={4}>
             <div className="section text-center">
-              <img src="/cohete.png" alt="Rocket" className="rocket-section-image" />
+              <img  src={process.env.PUBLIC_URL +'/img/cohete.png'}
+              alt="Rocket" 
+              className="rocket-section-image" />
               <h2>Nacionalidad</h2>
               <p>Para personas que buscan adquirir la nacionalidad chilena u otros trámites relacionados.</p>
             </div>
           </Col>
           <Col md={4}>
             <div className="section text-center">
-              <img src="/cohete.png" alt="Rocket" className="rocket-section-image" />
+            <img  src={process.env.PUBLIC_URL +'/img/cohete.png'}
+              alt="Rocket" 
+              className="rocket-section-image" />
               <h2>Visa Temporal</h2>
               <p>Para personas extranjeras que tienen el propósito de establecerse en Chile hasta por 2 años.</p>
             </div>
           </Col>
           <Col md={4}>
             <div className="section text-center">
-              <img src="/cohete.png" alt="Rocket" className="rocket-section-image" />
+            <img  src={process.env.PUBLIC_URL +'/img/cohete.png'}
+              alt="Rocket" 
+              className="rocket-section-image" />
               <h2>Visa Definitiva</h2>
               <p>Para personas con Residencia Temporal vigente, que desean radicarse por tiempo indefinido en Chile.</p>
             </div>
@@ -46,11 +54,15 @@ function Home() {
       </div>
       {/* Imagen en el lado derecho a la mitad de la web */}
       <div className="right-image-container">
-        <img src="/Ellipse 1.png" alt="" className="right-side-image" />
+        <img  src={process.env.PUBLIC_URL +'/img/Ellipse 1.png'}
+        alt="" 
+        className="right-side-image" />
       </div>
       {/* Imagen en la parte inferior izquierda */}
       <div className="bottom-left-image-container">
-        <img src="/Ellipse 2.png" alt="" className="bottom-left-image" />
+      <img  src={process.env.PUBLIC_URL +'/img/Ellipse 2.png'}
+        alt="" 
+        className="bottom-left-image" />
       </div>
     </Container>
   );
